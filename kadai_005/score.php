@@ -20,13 +20,11 @@ $score8 = 95;
 $score9 = 30;
 $score10 = 60;
 
-$score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10 ;
-$total = 62.5;
-$count = 10;
-$average =  $total / $count;
-
+$total =$score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10 ;
+echo $total;
+echo '<br>';
+$average =  $total / 10;
 echo "平均点は" . $average . "です。";
-
 ?>
      </p>
  </body>

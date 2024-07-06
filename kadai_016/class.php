@@ -52,17 +52,17 @@
           }
       }
 
-         $Food = new Food('potato', 250);
-         $Animal = new Animal('dog', 60 , 5000);
+         $food = new Food('potato', 250);
+         $animal = new Animal('dog', 60 , 5000);
 
-         print_r($Food);
+         print_r($food);
          echo '<br>';
-         print_r($Animal);
+         print_r($animal);
          echo '<br>';
 
-         $Food->show_price();
+         $food->show_price();
         echo "<br>";
-        $Animal->show_height();
+        $animal->show_height();
 
          ?>
      </p>
